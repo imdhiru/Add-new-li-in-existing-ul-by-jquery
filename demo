@@ -1,0 +1,10 @@
+Add new li in existing ul by jquery  in given media query
+
+
+
+
+$(document).ready(function(){
+     if ( $(window).width() <= 1023) {     
+	      $('.custom-menu-primary .hs-menu-flow-horizontal>ul>li:eq(0)').before("<li><a>home</a></li>")
+		}   
+});
